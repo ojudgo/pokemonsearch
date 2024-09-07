@@ -1,0 +1,22 @@
+* {background-color: red;
+font-family: verdana;}
+
+input{background-color: white;
+max-width: 147px}
+
+button {background-color: silver}
+
+div {
+border: 2px solid black;
+margin: 5px 0px;
+padding: 2px;
+background-color: white;
+max-width: 235px
+}
+
+span {background-color: white}
+
+img {background-color: white}
+
+body {margin: 10px auto;
+max-width: 300px}
