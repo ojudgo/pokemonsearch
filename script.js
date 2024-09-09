@@ -1,5 +1,7 @@
 const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
+const nameIdPic = document.getElementById('name-id-pic');
+const statBox = document.getElementById('stat-box');
 
 //Stat/Sprite constants
 const pName = document.getElementById('pokemon-name');
@@ -58,7 +60,11 @@ pWeight.textContent = `Weight: ${data.weight}`;
 
 searchButton.addEventListener('click', (e) =>
 {e.preventDefault;
-fetchData()}
+nameIdPic.style.display = 'block';
+statBox.style.display = 'block';
+fetchData();
+
+}
 )
 
 searchInput.addEventListener('keydown', e => {
