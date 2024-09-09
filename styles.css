@@ -22,3 +22,7 @@ img {background-color: white}
 
 body {margin: 10px auto;
 max-width: 300px}
+
+#name-id-pic, #stat-box {
+  display: none
+}
