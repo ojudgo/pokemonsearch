@@ -60,9 +60,10 @@ pWeight.textContent = `Weight: ${data.weight}`;
 
 searchButton.addEventListener('click', (e) =>
 {e.preventDefault;
+fetchData();
 nameIdPic.style.display = 'block';
 statBox.style.display = 'block';
-fetchData();
+
 
 }
 )
